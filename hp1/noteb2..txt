@@ -1,0 +1,54 @@
+KIEU DU LIEU STRiNG (STR)
+
+
+SLICING STRING
+b = "Hello, World!"
+print(b[2:5])
+[:] = lay het = [::] = lay het tang 1 (hai cai giong nhau)
+[:: (mot so)] = tang tuong ung voi so
+vd1: 2 thi <=> 0,2,4,6,...
+vd2: so am  <=> lui lai
+[:(so am)] = lay tu 0 toi vi tri do
+vd: [:-2] cho tu hello <=> tu h toi l dau tien ( dem nguoc lai tu o)
+[(so am):] = tu vi tri dem nguoc lai chay den vi tri cuoi cung 
+
+[(bat dau):(ket thuc):(tang bao nhieu)]
+H = 0
+e = 1
+l = 2
+l = 3
+, = 4
+cach ra = 5
+tuong tu
+
+print (r"xin \tchao") = r nam truoc ""se giu dinh dang
+vd: \t co r o trc se ko tab ra(tuong tu voi cai \khac)
+
+strip() = xoa het khoang cach (space) o dau va o cuoi cau print ra
+replace() = thay chu a thanh chu b
+split() ko ghi gi = cat bang dau cach
+split("(mot ki tu)") = cat bang ky tu do
+upper() = viet hoa toan bo
+lowwer() = viet thuong toan bo
+capitalized() = viet hoa chu dau trong " ", cac ky tu con lai chinh lai thanh ky tu thuong
+coi them: https://www.w3schools.com/python/python_strings_methods.asp
+NEN COI FORMAT
+len() = tra ve so luong phan tu trong chuoi (" ")
+
+
+
+b = "xin chao"
+for i,v in enumerate(b):
+    print(f"day la vi tri{i}: {v}")
+i = so 
+v = chu 
+enumerate cho lay cung luc ca so va chu
+
+
+
+try:
+    x = int(input("nhap so"))
+except:
+     x = int(input("ko nhan chu"))
+
+dung de phan mem nhan so / chi nhan chu (tranh phat sinh loi trong he thong)

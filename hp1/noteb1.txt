@@ -1,0 +1,73 @@
+# print ("abcd \"aba\"")
+# #\"a"\ = de ghi ky tu dac biet
+
+# print("avbsd \n asafafa")
+# #\n = xuong dong
+
+# print("asdaf \t asdaf")
+# # \t de cach ra
+
+# print("asfasf",3)
+# #ghi so cung chu
+# # ","dung de print 2 ve tren 1 dong
+
+#int chay nhanh hon float
+
+#input de nhap so/chu
+
+DAU TINH TOAN:
++
+-
+*
+/ : chia
+//: chia lay phan nguyen
+%: chia lay phan thua
+
+TOAN TU GAN
+a = a+b <=> a += b
+a = a/b <=> a /= b
+tuong tu cho cai phep tinh con lai
+
+TOAN TU QUAN HE
+>=
+<=
+==
+>
+<
+!= : ko bang
+
+TOAN TU LOGIC
+and : dung khi tat ca dung
+or: it nhat mot trong 2 dung la dc
+not: phu dinh dung thanh sai, nguoc lai
+vd: mua = ko mua
+
+LENH: IF, ELSE, ELIF 
+
+f("xas {num}asdaf")
+f {num} = cho phep truyen bien truc tiep vao trong chuoi => tranh phai su dung "," qua nhieu
+
+VONG LAP FOR, WHILE
+WHILE:
+
+while [dieu kien]:
+    cac cau len thuc hien
+NEU VONG LAP LUONG DUNG CAN DUNG "BREAK" DE DUNG VONG LAP
+
+CONTINUE:
+bo qua vong lap hien tai va tiep tuc vong lap tiep theo
+vd: 
+continue tai 5 <=> bo qua 5 va chay tu 6
+BREAK: dung vong lap
+
+VONG LAP FOR
+for (bien) in range (so bat dau, so ket thuc[dung truoc so do 1 gia tri], moi buoc tang[ko de mac dinh la 1]):
+    print(bien)
+
+(bien co so luon bat dau bang 0, va vi tri so 0)
+
+end= " .. " = dung de noi hai cau print dong su dung cau end va dong duoi cau end
+
+IMPORT RANDOM
+rand = random . randint (so dau tien, so cuoi cung) - tao so ngau nhien tu so  dau den so cuoi
+trg trinh doan so
